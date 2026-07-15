@@ -805,7 +805,6 @@ function App() {
 <section id="skills" className="skills-section">
 
   <p className="eyebrow">Technical Skills</p>
-  <p className="section-intro">Click a category to spotlight it.</p>
 
   <svg className="network-graph" viewBox="0 0 400 200" preserveAspectRatio="none">
     <line x1="30" y1="40" x2="120" y2="90" stroke="currentColor" strokeWidth="1" />
