@@ -352,15 +352,15 @@ const restorationProjects: RestorationProject[] = [
   },
   {
     id: 'mb2',
-    title: 'MacBook Air — No Bootable Device / Clean OS Reinstall',
-    summary: 'Bought after it powered on to a "no bootable device" error, then brought back to life with a clean macOS reinstall through Recovery Mode.',
+    title: 'MacBook Air — Startup Error Device / Clean OS Reinstall',
+    summary: 'Bought after it powered on to a startup error, then brought back to life with a clean macOS reinstall through Recovery Mode.',
     slides: [
-      { src: mb2Error, alt: 'MacBook Air showing a folder with question mark and no bootable device error on startup', tag: 'Before', tagClass: 'before' },
+      { src: mb2Error, alt: 'MacBook Air showing a folder with question mark and startup error on startup', tag: 'Before', tagClass: 'before' },
       { src: mb2Logo, alt: 'MacBook Air booting into macOS Recovery to reinstall the operating system', tag: 'Reinstalling', tagClass: 'after' },
       { src: mb2Setup, alt: 'MacBook Air at the macOS setup screen after a clean reinstall', tag: 'Set Up', tagClass: 'after' },
     ],
     bullets: [
-      { label: 'Issue', text: 'Powered on to a flashing folder-with-question-mark icon and a "no bootable device" message — meaning macOS couldn\'t be found or loaded from the internal drive.' },
+      { label: 'Issue', text: 'Powered on to a flashing folder-with-question-mark icon and a startup error message — meaning macOS couldn\'t be found or loaded from the internal drive.' },
       { label: 'Diagnosis', text: 'Confirmed the SSD itself was present and healthy; the operating system installation was missing or corrupted rather than a hardware failure.' },
       { label: 'Repair', text: 'Booted into macOS Recovery Mode and performed a clean reinstall of macOS directly over the internet.' },
       { label: 'Outcome', text: 'Laptop booted cleanly to the macOS setup screen, fully functional and ready to configure for a new owner.' },
