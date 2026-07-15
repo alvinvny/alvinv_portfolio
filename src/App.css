@@ -1518,9 +1518,9 @@ body {
   width: 40px;  
   height: 40px;  
   border-radius: 50%;  
-  border: 1px solid var(--border);  
+  border: 1px solid rgba(148, 197, 210, 0.25);  
   background: rgba(11, 22, 32, 0.85);  
-  color: var(--text-h);  
+  color: #f1f6fa;  
   display: flex;  
   align-items: center;  
   justify-content: center;  
@@ -1761,4 +1761,4 @@ section > p {
 
 .social-btn.phone {  
   background: var(--social-bg);  
-}  
+}

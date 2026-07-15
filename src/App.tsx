@@ -473,7 +473,7 @@ function App() {
           <a href="#about" onClick={() => setMobileMenuOpen(false)}>About Me</a>
           <a href="#education" onClick={() => setMobileMenuOpen(false)}>Education</a>
           <a href="#experience" onClick={() => setMobileMenuOpen(false)}>Experience</a>
-          <a href="#certifications" onClick={() => setMobileMenuOpen(false)}>Certifications</a>
+          <a href="#certificates" onClick={() => setMobileMenuOpen(false)}>Certificates</a>
           <a href="#projects" onClick={() => setMobileMenuOpen(false)}>Projects</a>
           <a href="#restorations" onClick={() => setMobileMenuOpen(false)}>Restorations</a>
           <a href="#skills" onClick={() => setMobileMenuOpen(false)}>Skills</a>
@@ -560,7 +560,7 @@ function App() {
               <path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3" />
             </svg>
             <span className="vital-value">3</span>
-            <span className="vital-label">IT Certifications Earned</span>
+            <span className="vital-label">IT Certificates Earned</span>
           </div>
         </div>
 
@@ -713,11 +713,11 @@ function App() {
       </section>
       </Reveal>
 
-      {/* CERTIFICATIONS */}
+      {/* CERTIFICATES */}
       <Reveal>
-      <section id="certifications">
+      <section id="certificates">
 
-        <p className="eyebrow">Certifications</p>
+        <p className="eyebrow">Certificates</p>
 
         <div className="cert-grid">
           <div className="cert-card">
@@ -759,7 +759,7 @@ function App() {
             </p>
             <a
               className="project-link"
-              href="https://lnkd.in/e9csMW3m"
+              href="https://github.com/ShaniaB417/Sole-Swap"
               target="_blank"
               rel="noreferrer"
             >
