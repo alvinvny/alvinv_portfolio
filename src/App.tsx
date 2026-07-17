@@ -13,6 +13,7 @@ import mb2Error from './restorations/macbook2-error-nobootdevice.png'
 import mb2Logo from './restorations/macbook2-boot-apple-logo.png'
 import mb2Setup from './restorations/macbook2-setup-screen.png'
 import soleSwapImg from './projects/sole-swap.png'
+import resumePdf from './resume/Alvin_Varughese_Resume.pdf'
 import resumePng from './resume/Alvin_Varughese_Resume.png'
 import './App.css'
 
@@ -169,13 +170,26 @@ function ResumeLightbox({ onClose }: { onClose: () => void }) {
 
   return (
     <div className="lightbox-backdrop" onClick={onClose}>
-      <div className="lightbox-content resume-lightbox" onClick={(e) => e.stopPropagation()}>
+      <div
+        className="lightbox-content"
+        onClick={(e) => e.stopPropagation()}
+        style={{ maxWidth: '800px', width: '90vw', padding: '20px' }}
+      >
         <button className="lightbox-close" onClick={onClose} aria-label="Close">
           <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
             <path d="M6 6l12 12M18 6L6 18" />
           </svg>
         </button>
-        <img className="resume-preview-img" src={resumePng} alt="Alvin Varughese resume" />
+        <img
+          src={resumePng}
+          alt="Alvin Varughese resume"
+          style={{
+            width: '100%',
+            borderRadius: '8px',
+            border: '1px solid var(--border)',
+            display: 'block',
+          }}
+        />
       </div>
     </div>
   )
@@ -355,7 +369,7 @@ const restorationProjects: RestorationProject[] = [
     title: 'MacBook Air — Startup Error Device / Clean OS Reinstall',
     summary: 'Bought after it powered on to a startup error, then brought back to life with a clean macOS reinstall through Recovery Mode.',
     slides: [
-      { src: mb2Error, alt: 'MacBook Air showing a folder with question mark and startup error on startup', tag: 'Before', tagClass: 'before' },
+      { src: mb2Error, alt: 'MacBook Air showing a folder with question mark and startup error', tag: 'Before', tagClass: 'before' },
       { src: mb2Logo, alt: 'MacBook Air booting into macOS Recovery to reinstall the operating system', tag: 'Reinstalling', tagClass: 'after' },
       { src: mb2Setup, alt: 'MacBook Air at the macOS setup screen after a clean reinstall', tag: 'Set Up', tagClass: 'after' },
     ],
@@ -530,8 +544,8 @@ function App() {
           </button>
           <a
             className="secondary"
-            href={resumePng}
-            download="Alvin_Varughese_Resume.png"
+            href={resumePdf}
+            download="Alvin_Varughese_Resume.pdf"
           >
             Download Resume
           </a>
@@ -713,7 +727,7 @@ function App() {
       </section>
       </Reveal>
 
-      {/* CERTIFICATES */}
+      {/* CERTIFICATIONS */}
       <Reveal>
       <section id="certificates">
 
@@ -759,7 +773,7 @@ function App() {
             </p>
             <a
               className="project-link"
-              href="https://github.com/ShaniaB417/Sole-Swap"
+              href="https://lnkd.in/e9csMW3m"
               target="_blank"
               rel="noreferrer"
             >
