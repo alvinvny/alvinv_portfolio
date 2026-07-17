@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import selfImg from './logos/self.jpg'
+import selfImg from './logos/self.png'
 import farmingdaleLogo from './logos/farmingdale.png'
 import nassauLogo from './logos/nassau.png'
 import northwellLogo from './logos/northwell.png'
